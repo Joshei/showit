@@ -8,7 +8,7 @@ const CodeListing3 = () => {
     return (
     <div>
         <h1>On Code List Page 3</h1>
-        <Link to="/">Go to Home Page</Link>
+        <Link className = "link" to="/">Go to Home Page</Link>
     </div>
     );
 };

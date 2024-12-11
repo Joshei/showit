@@ -1,13 +1,18 @@
 import {React, useEffect} from "react";
 import {Link} from 'react-router-dom';
-import CodeListing1 from './1.jsx';
+//import codelist1 from './codelist1.jsx';
+import "./home-styles.css";
 
 
 const Home = () => {
     return (
     <div>
         <h1>On Home Page</h1>
-        <Link to="/Code-listing1">Go to Code Listing</Link>
+        <div className = "lists">
+        <Link className = "top-list" to="/Code-listing1">Go to Code 1 Listing</Link>
+        <Link className = "list" to="/Code-listing2">Go to Code 2 Listing</Link>
+        <Link className = "list" to="/Code-listing3">Go to Code 3 Listing</Link>
+        </div>
     </div>
     );
 };

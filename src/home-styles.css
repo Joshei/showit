@@ -1,0 +1,22 @@
+
+
+.lists{
+    display:flex;
+    flex-direction: column;
+    margin-left:2rem;
+    margin-top:4rem;
+}
+
+
+.top-list{
+    margin-left:2rem;
+}
+
+.list{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+h1{
+    margin-left: 2rem;
+}
