@@ -1,0 +1,74 @@
+12/10/24
+
+
+
+///////////////////This is all the routing done, just that.
+
+
+///////////////////APP.js
+
+import './App.css';
+import { BrowserRouter, Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './home.jsx';
+import Test2 from './2.jsx';
+
+function App() {
+
+
+    return (
+      <div>
+       
+     <BrowserRouter>
+     <Routes>
+         <Route path="/" element={<Home/>} />
+         <Route path="/test2" element={<Test2/>} />
+     </Routes>
+     </BrowserRouter>
+     </div>
+
+    )  
+  }
+
+
+export default App;
+
+
+
+
+///////////////////home.jsx
+
+
+import {React, useEffect} from "react";
+import {Link} from 'react-router-dom';
+
+const Home = () => {
+    return (
+    <div>
+        <h1>On Home Page</h1>
+        <Link to="/test2">Go to Page With Context Listing</Link>
+    </div>
+    );
+};
+export default Home;
+
+
+
+
+///////////////////2.jsx
+
+
+import {React, useEffect} from "react";
+import {Link} from 'react-router-dom';
+
+const Test2 = () => {
+    return (
+    <div>
+        <h1>On Page</h1>
+        <Link to="/">Go to Page With Context Listing</Link>
+    </div>
+    );
+};
+export default Test2;
+
+
+///////////////////
