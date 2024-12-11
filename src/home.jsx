@@ -14,11 +14,7 @@ const Home = () => {
         <MainDisplay/>
         </div>
 
-        <div className = "lists">
-        <Link className = "top-list" to="/Code-listing1">Go to Code 1 Listing</Link>
-        <Link className = "list" to="/Code-listing2">Go to Code 2 Listing</Link>
-        <Link className = "list" to="/Code-listing3">Go to Code 3 Listing</Link>
-        </div>
+        
     </div>
     );
 };
