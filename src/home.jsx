@@ -1,6 +1,6 @@
 import {React, useEffect} from "react";
 import {Link} from 'react-router-dom';
-import CodeListing1 from './2.jsx';
+import CodeListing1 from './1.jsx';
 
 
 const Home = () => {
