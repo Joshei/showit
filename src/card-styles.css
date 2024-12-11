@@ -23,7 +23,7 @@ img{
 .card-info{
     margin-bottom:4rem;
     margin-left:2rem;
-    width:40%;
+    width:80%;
 }
 
 
@@ -32,7 +32,7 @@ img{
     display: flex;
     flex-direction: row;
     margin-left: 3rem;
-    margin-bottom:7rem;
+    margin-bottom:3rem;
     
     
 
@@ -56,4 +56,10 @@ img{
     align-self: center;
 
 
+}
+
+.alink{
+    background-color: tan;
+    font-size: 1rem;
+    width: 100%;
 }

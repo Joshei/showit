@@ -4,7 +4,7 @@ const cards = [
   {
     id: 1,
     title: "Character Jumps Game",
-    name: "Josh Eir",
+    
     info: "the info goes here the info goes here the info goeinfo goes heroes here the info goes here the info goes info goes her info goes here info goes hero goes here",
     imageUrl: require("./assets/image.jpg"),
     link: "Code-listing1",
@@ -13,7 +13,7 @@ const cards = [
   {
     id: 2,
     title: "Character Jumps Game",
-    name: "Josh Eir",
+   
     info: "the info goes here the info goes here the info goes here the info goeinfo goes heroes here the info goes here the info goes info goes her info goes here info goes hero g",
     imageUrl: require("./assets/image.jpg"),
     link: "Code-listing2",
@@ -22,7 +22,7 @@ const cards = [
   {
     id: 3,
     title: "Character Jumps Game",
-    name: "Josh Eir",
+    
     info: "the info goes here",
     imageUrl: require("./assets/image.jpg"),
     link: "Code-listing2",
@@ -49,7 +49,7 @@ const MainDisplay = () => {
                   <div>
                   <div className="card-info">{card.info}</div>
                   </div>
-                  <div>
+                  <div className = "alink">
                     <Link className="top-list" to={`/${card.link}`}>
                       See the code for this project
                     </Link>
