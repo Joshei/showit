@@ -8,7 +8,7 @@ const CodeListing2 = ({code}) => {
     return (
     <div>
     <div>
-        <h1>On Code List Page 2</h1>
+        <h1>Image Gallery Site</h1>
         <Link className = "link"  to="/">Go to Home Page</Link>
     </div>
     <div>

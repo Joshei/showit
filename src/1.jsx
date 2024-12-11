@@ -13,15 +13,11 @@ import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
 const CodeListing1 = ({ code}) => {
 
     return (
-
         <div>
         <div>
-        <h1>Sample 
-            Page One</h1>
+        <h1>Mobile First Project</h1>
         <Link className = "link"  to="/">Go to Home Page</Link>
         </div>
-       
-        /////
         <div>
         <SyntaxHighlighter language= 'javascript' style={docco}>
           {code}
