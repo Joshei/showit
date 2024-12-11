@@ -9,7 +9,7 @@ const Home = () => {
     return (
     <div>
         
-        <h1>Completed Projects</h1>
+        <h2>Completed Projects</h2>
         <div>
         <MainDisplay/>
         </div>

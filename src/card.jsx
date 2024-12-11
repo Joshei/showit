@@ -6,8 +6,9 @@ const cards = [
     title: "Mobile First Project",
     
     info: "the info goes here the info goes here the info goeinfo goes heroes here the info goes here the info goes info goes her info goes here info goes hero goes here",
-    imageUrl: require("./assets/image.jpg"),
+    imageUrl: require("./assets/1-mobile-first.png"),
     link: "Code-listing1",
+
   },
 
   {
@@ -15,7 +16,7 @@ const cards = [
     title: "Image Gallery Project",
    
     info: "the info goes here the info goes here the info goes here the info goeinfo goes heroes here the info goes here the info goes info goes her info goes here info goes hero g",
-    imageUrl: require("./assets/image.jpg"),
+    imageUrl: require("./assets/2-image-gallery.png"),
     link: "Code-listing2",
   },
 
@@ -39,23 +40,30 @@ const MainDisplay = () => {
           <div>
             <div className="title">{card.title}</div>
             <div className="main">
-              <div className = "image" >
-              <img src={card.imageUrl} />
-              </div>
               
-                <div className="linkOnSide">
+                
                   
                   <div className="card-info">{card.info}</div>
                   
+                  
+                  
                   <div className = "alink">
                     <Link className="top-list" to={`/${card.link}`}>
-                      See the code for this project
+                    See the sample code for this project
                     </Link>
                   </div>
-                </div>
+                  
+               
 
             </div>
+            <div className = "image" >
+              <img src={card.imageUrl} />
+              
+              </div>
+              
           </div>
+
+          
         ))}
       </div>
       

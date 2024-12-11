@@ -1,6 +1,6 @@
 .top{
 
-    min-width: 845px;
+    
 }
 
 .title{
@@ -14,26 +14,38 @@
 
 
 img{
-    width:100px;
+    width:100%;
    
 }
 
 
+.image{
+    
+    text-align: center;
+    margin-bottom: 6rem;
+    width: 95%;
+    
+}
+
+
+
 
 .card-info{
-    margin-bottom:4rem;
-    margin-left:2rem;
-    width:80%;
+    margin-bottom:2rem;
+   width:80%;
+   
+    
     /*background-color: aliceblue;*/
 }
 
 
 .main{
 
-    display: flex;
-    flex-direction: row;
-    margin-left: 3rem;
-    margin-bottom:3rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
     
     
 
@@ -45,7 +57,7 @@ img{
     flex-direction: row;
     justify-content: center;
     /*background-color: yellow;*/
-    width:2000px;
+    
     
 
 }
@@ -54,4 +66,11 @@ img{
     /*background-color: tan;*/
     font-size: 1rem;
     width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.top-list{
+margin-left: 1rem;
+margin-right:1rem;
 }
