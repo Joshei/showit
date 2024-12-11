@@ -1,0 +1,31 @@
+
+.title{
+
+    margin-bottom:2rem;
+    font-size:20px;
+    text-align: center;
+
+}
+
+img{
+    width:10%;
+   
+}
+
+
+.card-info{
+    margin-bottom:4rem;
+    margin-left:2rem;
+}
+
+
+.main{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-bottom:7rem;
+    
+    
+
+}
