@@ -3,30 +3,34 @@ import { Link } from "react-router-dom";
 const cards = [
   {
     id: 1,
-    title: "Mobile First Project",
-    
-    info: "the info goes here the info goes here the info goeinfo goes heroes here the info goes here the info goes info goes her info goes here info goes hero goes here",
-    imageUrl: require("./assets/1-mobile-first.png"),
-    link: "Code-listing1",
-
+    title: "Black Jack Project",
+    info: "Written in JavaScript, this fun black jack card game, is for playing cards.  It is small enough to fit on a mobile device, which is nice.  Completed March 2023.",
+    imageUrl: require("./assets/Blackjack_Display.bmp"),
+    link: "Code-listing2",
+    projectLink: "/test"
   },
 
   {
     id: 2,
-    title: "Image Gallery Project",
+    title: "Living the Simple Life Project",
    
-    info: "the info goes here the info goes here the info goes here the info goeinfo goes heroes here the info goes here the info goes info goes her info goes here info goes hero g",
-    imageUrl: require("./assets/2-image-gallery.png"),
+    info: "This three page website is written with JavaScript and CSS.  It is completely responsive and works well with mobile-devices.  Completed September 2024.",
+    imageUrl: require("./assets/2-living-simple.png"),
     link: "Code-listing2",
+    projectLink: "/test"
   },
 
   {
     id: 3,
-    title: "Text Editor Project",
     
-    info: "the info goes here",
-    imageUrl: require("./assets/image.jpg"),
-    link: "Code-listing2",
+
+    title: "Image Gallery Project",
+    info: "Although, the makeup is a bit contrived, this React site shows good use of the language.  It is written with React, Javascript, and CSS.  It features a panel that hides itself."
+    imageUrl: require("./assets/1-image-gallery.png"),
+    link: "Code-listing1",
+    projectLink: "/test"
+
+
   },
 ];
 
@@ -48,8 +52,14 @@ const MainDisplay = () => {
                   
                   
                   <div className = "alink">
+                    <div className = "first-link">
                     <Link className="top-list" to={`/${card.link}`}>
                     See the sample code for this project
+                    </Link>
+                    </div>
+                    
+                    <Link className="top-list" to={`/${card.projectLink}`}>
+                    Go to project on server
                     </Link>
                   </div>
                   
@@ -57,7 +67,7 @@ const MainDisplay = () => {
 
             </div>
             <div className = "image" >
-              <img src={card.imageUrl} />
+              <img src={card.imageUrl}  alt = "image"/>
               
               </div>
               
